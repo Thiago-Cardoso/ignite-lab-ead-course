@@ -79,6 +79,74 @@ $ node -v
 # Must be have the node version: v10.14.0
 $ npm -v
 # Must be have the npm version: 6.14.4
+
+# Run Docker Compose
+$ docker-compose up -d
+
+# Go to folder classroom
+$ cd classroom/
+
+# Install Dependencies
+$ yarn
+# or
+$ npm install
+
+# Run Application
+$ yarn start:dev
+# or
+$ npm run start:dev
+
+# Access localhost
+http://localhost:3334/graphql
+
+# Go to folder purchases
+$ cd purchases/
+
+# Install Dependencies
+$ yarn
+# or
+$ npm install
+
+# Run Application
+$ yarn start:dev
+# or
+$ npm run start:dev
+
+# Access localhost
+http://localhost:3333/graphql
+
+# Go to folder gateway
+$ cd gateway/
+
+# Install Dependencies
+$ yarn
+# or
+$ npm install
+
+# Run Application
+$ yarn start:dev
+# or
+$ npm run start:dev
+
+# Access localhost
+http://localhost:3332/graphql
+
+# Go to folder web
+$ cd web/
+
+# Install Dependencies
+$ yarn
+# or
+$ npm install
+
+# Run Application
+$ yarn dev
+# or
+$ npm run dev
+
+# Access localhost
+http://localhost:3000
+
 ```
 
 ## Author
