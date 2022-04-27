@@ -122,7 +122,7 @@ export type CreatePurchaseMutation = { __typename?: 'Mutation', CreatePurchase: 
 export type MeQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type MeQuery = { __typename?: 'Query', me: { __typename?: 'User', authUserId: string } };
+export type MeQuery = { __typename?: 'Query', me: { __typename?: 'User', enrollments: Array<{ __typename?: 'Enrollment', id: string, createdAt: any, course: { __typename?: 'Course', title: string, slug: string } }> } };
 
 export type GetProductsQueryVariables = Exact<{ [key: string]: never; }>;
 
@@ -166,7 +166,14 @@ export type CreatePurchaseMutationOptions = Apollo.BaseMutationOptions<CreatePur
 export const MeDocument = gql`
     query Me {
   me {
-    authUserId
+    enrollments {
+      id
+      createdAt
+      course {
+        title
+        slug
+      }
+    }
   }
 }
     `;
