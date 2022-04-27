@@ -20,6 +20,7 @@
 - **NestJS**
 - **GraphQL**
 - **Apache Kafka**
+- **ReactJS**
 - **Next.js**
 - **TypeScript**
 - **Apollo Client (GraphQL)**
