@@ -21,7 +21,10 @@
 - **GraphQL**
 - **Apache Kafka**
 - **Next.js**
+- **TypeScript**
 - **Apollo Client (GraphQL)**
+- **Auth0**
+- **Prisma ORM**
 
 ## Features
 
